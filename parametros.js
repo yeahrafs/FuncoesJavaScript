@@ -16,8 +16,8 @@ function nomeIdade(nome, idade) {
 
 console.log(nomeIdade("Rafaela", 23))
 
-function multiplica(numero1, numero2) {
+function multiplica(numero1 = 3, numero2 = 3) {
     return numero1 * numero2;
 }
 
-console.log(multiplica(soma(2,3), soma(3,3)))
+console.log(multiplica(soma(2,3)))
